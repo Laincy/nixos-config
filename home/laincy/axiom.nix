@@ -1,16 +1,8 @@
-{lib, ...}: {
+{...}: {
   imports = [
     ./global
-    ./opts/desktop/hyprland
-		./opts/program/alacritty
-    ./opts/program/fuzzel
-    ./opts/program/firefox
-    ./opts/tool/fenix
-    ./opts/theme/tokyo-night
+  	./profiles/main-workspace
 	];
-
-  nixpkgs.config.allowUnfreePredicate = pkg:
-    builtins.elem (lib.getName pkg) [];
 
   monitors = [
     {

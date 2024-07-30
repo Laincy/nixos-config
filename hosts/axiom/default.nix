@@ -3,12 +3,14 @@
     ./hardware-configuration.nix
     ../common/global
     ../common/users/laincy
-		../common/opts/pipewire.nix
-  	../common/opts/nerdfonts/aurulent.nix
-	];
+    ../common/opts/pipewire.nix
+    ../common/opts/nerdfonts/aurulent.nix
+  ];
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+
+  programs.dconf.enable = true;
 
   networking.hostName = "axiom";
 
