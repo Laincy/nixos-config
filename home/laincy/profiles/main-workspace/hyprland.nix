@@ -10,8 +10,8 @@
   };
 
   services.hyprpaper.settings = {
-    preload = ["${./wallpapers/outing.jpg}"];
-    wallpaper = [",${./wallpapers/outing.jpg}"];
+    preload = ["${./wallpapers/newmessage.png}"];
+    wallpaper = [",${./wallpapers/newmessage.png}"];
     ipc = "on";
     splash = false;
   };
@@ -26,11 +26,11 @@
         layout = "master";
         border_size = 2;
 
-        "col.active_border" = "rgba(ebbcbaee)";
-        "col.inactive_border" = "rgba(21202eee)";
+        "col.active_border" = "rgb(de6d73)";
+        "col.inactive_border" = "rgb(21202e)";
       };
       decoration = {
-        #rounding = 10;
+        rounding = 10;
       };
 
       monitor =

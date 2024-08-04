@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       window = {
-        opacity = 0.9;
+        opacity = 0.7;
         blur = true;
 
         padding = {
@@ -18,7 +18,7 @@
         };
         size = 12;
       };
-			colors.transparent_background_colors = true;
+      colors.transparent_background_colors = true;
       colors.primary = {
         foreground = "#e0def4";
         background = "#191724";

@@ -26,6 +26,8 @@
     };
 
     nixvim-config.url = "github:laincy/nixvim";
+
+    ags.url = "github:Aylur/ags";
   };
 
   outputs = {
